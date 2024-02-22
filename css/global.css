@@ -1,0 +1,135 @@
+/*
+Name: Assignment 1
+Course Code: SODV1201
+Program Name: Software Development Diploma Program
+Author: Yu
+Note: the real author name is in the document submitted on D2L.
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    color: #232323;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #232323;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 10px 0;
+    color: white;
+    font-size: medium;
+    font-family: "Roboto Mono", monospace;
+    background-color: #232323;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: lawngreen;
+}
+
+input {
+    padding: 2px;
+    font-size: large;
+}
+
+h1 {
+    padding: 20px 0;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+li a {
+    font-size: large;
+    font-weight: bold;
+}
+
+li a:link, li a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+li a:hover {
+    color: lawngreen;
+    text-decoration: none;
+}
+
+footer {
+    margin: 20px 0;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    color: #232323;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: forestgreen;
+    text-decoration: none;
+}
+
+picture p, picture p a {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+picture p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+picture img {
+    width: 34vw;
+    height: auto;
+    border-radius: 34vw;
+}
+
+article {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article p {
+    padding: 10px 0;
+}
+
+td label, td p {
+    font-size: large;
+}
+
+tr td:first-child p {
+    text-align: right;
+}
+
+th {
+    padding: 0 4vw;
+}

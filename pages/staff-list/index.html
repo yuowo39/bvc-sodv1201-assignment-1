@@ -1,0 +1,50 @@
+<!--
+Name: Assignment 1
+Course Code: SODV1201
+Program Name: Software Development Diploma Program
+Author: Yu
+Note: the real author name is in the document submitted on D2L.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Staff List</title>
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header></header>
+<nav></nav>
+<main>
+    <div>
+        <p>Tip: click the table headers to filter the table data. </p>
+        <button id="resetFilter">Reset Filter</button>
+    </div>
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th id="byFullName"></th>
+                <th id="byRole"></th>
+                <th id="byLocation"></th>
+                <th id="byID"></th>
+                <th id="byDate"></th>
+                <th id="bySalary"></th>
+            </tr>
+            </thead>
+            <tbody id="staff-data"></tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+</main>
+<footer></footer>
+<script src="../../libs/jquery/jquery-3.7.1.min.js"></script>
+<script type="module" src="../../js/page.js"></script>
+<script src="../../js/staff-data.js"></script>
+<script src="../../js/staff-list.js"></script>
+</body>
+</html>
