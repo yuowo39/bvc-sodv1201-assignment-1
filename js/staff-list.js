@@ -24,7 +24,6 @@ const Orders = {
 
 // Init
 initTableHeaders();
-fillStaffDataIntoForm(staffData);
 
 // Reloading the page with hash can be handled
 getHashForOrderBy();
