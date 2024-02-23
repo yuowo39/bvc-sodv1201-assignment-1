@@ -25,10 +25,8 @@ const Orders = {
 // Init
 initTableHeaders();
 
-// Reloading the page with hash can be handled
+// Hash handler and form generator
 getHashForOrderBy();
-
-// Listening the change of hash
 window.addEventListener("hashchange", getHashForOrderBy);
 
 // Reset Filter
